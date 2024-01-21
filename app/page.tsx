@@ -1,10 +1,8 @@
-import Topics from "@/components/Topics";
-import Image from "next/image";
-
+import TopicsList from "@/components/Topics";
 export default function Home() {
   return (
     <div>
-      <Topics />
+      <TopicsList/>
     </div>
   );
 }
